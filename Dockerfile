@@ -15,8 +15,8 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-## Create a directory for required files
-RUN mkdir -p /build/
+# ## Create a directory for required files
+# RUN mkdir -p /build/
 
 # ## Install Hugo
 # RUN cd / && curl -L https://github.com/gohugoio/hugo/releases/download/v0.62.1/hugo_0.62.1_Linux-64bit.tar.gz | tar -xvzf-
