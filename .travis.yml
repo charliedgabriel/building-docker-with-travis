@@ -15,11 +15,11 @@ install:
 
 before_script:
   - pip install -r requirements.txt
-#   - pip install mock
-#   - pip install requests
-#   - pip install feedparser
-#   - pip install coverage
-#   - pip install coveralls
+  - pip install mock
+  - pip install requests
+  - pip install feedparser
+  - pip install coverage
+  - pip install coveralls
 
 
 script:
