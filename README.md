@@ -1,1 +1,1 @@
-echo # building-docker-with-travis
+# building-docker-with-travis
