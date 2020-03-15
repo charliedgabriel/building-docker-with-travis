@@ -24,3 +24,4 @@ before_script:
 
 script:
   - docker ps | grep -q blog
+  - python tests.py
